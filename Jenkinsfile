@@ -28,6 +28,9 @@ pipeline {
          beforeAgent true
          branch 'master'
       }
+      steps {
+         echo "TODO - build and push image"
+      }
   }
-}
+ }
 }
